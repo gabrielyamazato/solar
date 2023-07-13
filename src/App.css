@@ -1,3 +1,72 @@
 .App {
   text-align: center;
 }
+
+body {
+  background-image: url('./images/background.png');
+  color: black;
+}
+
+header {
+  font-size: 40px;
+  text-align: center;
+}
+
+header h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}
+
+.solar-system {
+  text-align: center;
+  align-items: baseline;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  width: 100%;
+}
+
+.planet-card {
+  display: inline-block;
+}
+
+.planet-card img {
+  text-align: center;
+  width: 100%;
+}
+
+.Mercúrio {
+  width: 5%;
+}
+
+.Vênus {
+  margin-left: 20px;
+  width: 23%
+}
+
+.Terra {
+  margin-left: 8px;
+  width: 27%
+}
+
+.Marte {
+  margin-left: 8px;
+  width: 19%;
+}
+
+.Júpiter {
+  width: 50%;
+}
+
+.Saturno {
+  width: 48%;
+}
+
+.Urano {
+  width: 35%;
+}
+
+.Netuno {
+  margin-left: 10px;
+  width: 33%;
+}
